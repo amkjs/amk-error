@@ -1,0 +1,19 @@
+{
+  "name": "amk-error",
+  "version": "0.1.0",
+  "description": "http response error object for amk js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amkjs/amk-error.git"
+  },
+  "author": "heinrich10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amkjs/amk-error/issues"
+  },
+  "homepage": "https://github.com/amkjs/amk-error#readme"
+}
