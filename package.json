@@ -1,10 +1,11 @@
 {
   "name": "amk-error",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "http response error object for amk js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/nyc ./node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/amkjs/amk-error/issues"
   },
-  "homepage": "https://github.com/amkjs/amk-error#readme"
+  "homepage": "https://github.com/amkjs/amk-error#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-amk": "^0.1.0"
+  }
 }
