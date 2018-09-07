@@ -1,5 +1,10 @@
 # AMK-ERROR
 
+[![CircleCI](https://circleci.com/gh/amkjs/amk-error.svg?style=svg)](https://circleci.com/gh/amkjs/amk-error)
+[![codecov](https://codecov.io/gh/amkjs/amk-error/branch/master/graph/badge.svg)](https://codecov.io/gh/amkjs/amk-error)
+[![Known Vulnerabilities](https://snyk.io/test/github/amkjs/amk-error/badge.svg?targetFile=package.json)](https://snyk.io/test/github/amkjs/amk-error?targetFile=package.json)
+
+
 http response error object for amk js
 
 ## Usage
@@ -20,7 +25,7 @@ throw new ErrorObject('Not found', 404);
 Creating an error object
 
 ##### Arguments
-* **message** **_(string)_** - message regarding the error
+* **message** **_(string)_** - message regarding the error (default: Something went wrong)
 * **status** **_(number)_** - http status code, will only accept 400 to 599. (default is 500)
 
 ## Tests
