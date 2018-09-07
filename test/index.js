@@ -21,7 +21,7 @@ describe('Error function', () => {
 	it('Should default to default message there is no message', () => {
 		const msg = 'Something went wrong';
 		const status = 500;
-		const error = new AmkError(null, status);
+		const error = new AmkError(undefined, status);
 
 		expect(error.status).to.be.equal(status);
 		expect(error.message).to.be.equal(msg);

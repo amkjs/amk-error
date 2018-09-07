@@ -4,8 +4,8 @@
   "description": "http response error object for amk js",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/nyc ./node_modules/mocha/bin/_mocha"
+    "lint": "eslint .",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
