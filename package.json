@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+	"codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/amkjs/amk-error#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "codecov": "^3.1.0",
     "eslint": "^5.5.0",
     "eslint-config-amk": "^0.1.0",
     "mocha": "^5.2.0",
