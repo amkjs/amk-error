@@ -1,10 +1,13 @@
 
+const { sanitizeStatusCode } = require('./lib/check');
+
+const defaultMessage = 'Something went wrong';
+
 class AmkError extends Error {
 
-	constructor(message, status) {
+	constructor(message = defaultMessage, status) {
 		super(message);
-		this.message = message;
-		this.status = status;
+		this.status = sanitizeStatusCode(status);
 	}
 
 }
